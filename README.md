@@ -91,21 +91,19 @@ Questions, bug reports, ideas, beta versions: join us on **[Discord](https://dis
 You can also open an [issue](https://github.com/gabrielchamak/solea-releases/issues):
 - check first that it hasn't been reported already;
 - give the steps to reproduce it, your device (TV box model, phone, Windows…) and your Solea version;
-- **never** paste your subscription address, username or password.
+- **never** paste your subscription address, username, password or playlist address.
 
 ## Planned Features
 
 Coming in the next version:
-* Language (dubbed or original with subtitles) and quality chosen separately, for every movie and series
-* Redesigned movie, series and cast pages
-* Updates offered by the app itself (Android, Windows)
-* Optional Solea account
+* Sign in a TV from your phone through solea.tv – scan the QR code, type on your phone; end-to-end encrypted, no need
+  to be on the same Wi-Fi
+* M3U playlists, with their XMLTV program guide
 
 Later:
 * Samsung TVs (Tizen)
 * Apple TV
 * Program guide (EPG) as a grid
-* M3U playlists
 
 ## Built with Claude
 
@@ -123,7 +121,6 @@ This software uses the following services and open source projects:
 - [OpenSubtitles](https://www.opensubtitles.com) – subtitles; [TheIntroDB](https://theintrodb.org) – intro and recap timings
 - [ExoPlayer / Media3](https://developer.android.com/media/media3), [mpv](https://mpv.io) through
   [media_kit](https://github.com/media-kit/media-kit), [FFmpeg](https://ffmpeg.org) (LGPL) – playback
-- [Blender Foundation](https://www.blender.org/about/projects/) – open movies of the demo (Creative Commons Attribution)
 - [iptv-org](https://github.com/iptv-org) – channel logos; [flag-icons](https://github.com/lipis/flag-icons) (MIT) – flags
 - [Plus Jakarta Sans](https://github.com/tokotype/PlusJakartaSans) (SIL Open Font License) – font
 
