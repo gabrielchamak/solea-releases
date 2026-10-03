@@ -11,6 +11,7 @@
 <p align="center">
   <a href="#download">Download</a> •
   <a href="#key-features">Key Features</a> •
+  <a href="#screenshots">Screenshots</a> •
   <a href="#community">Community</a> •
   <a href="#planned-features">Planned Features</a> •
   <a href="#built-with-claude">Built with Claude</a> •
@@ -83,6 +84,23 @@ AltStore and SideStore sign the app with your own Apple ID: with a free Apple ID
   - iPhone + iPad
   - Windows
 
+
+## Screenshots
+
+> All titles, channels, programs, posters and cast below are fictional, made up for these screenshots.
+
+<p align="center">
+  <img src="images/desktop-home.png" alt="Home" width="49%">
+  <img src="images/desktop-movie.png" alt="Movie page" width="49%">
+</p>
+<p align="center">
+  <img src="images/tv-movies.png" alt="Movies on a TV, with the remote" width="49%">
+  <img src="images/desktop-series.png" alt="Series page" width="49%">
+</p>
+<p align="center">
+  <img src="images/phone-home.png" alt="Home on a phone" width="24%">
+  <img src="images/phone-movie.png" alt="Movie page on a phone" width="24%">
+</p>
 
 ## Community
 
