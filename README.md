@@ -40,22 +40,19 @@ Get the latest version on the [releases page](https://github.com/gabrielchamak/s
 
 * **Android TV, Fire TV, Android phones and tablets** – `Solea-<version>-android.apk`
 * **Windows** – `Solea-<version>-Setup.exe` (installer) or `Solea-<version>-windows.zip` (portable)
-* **iPhone, iPad** – TestFlight beta (ask on [Discord](https://discord.gg/42FVvupACy)), or AltStore / SideStore:
-  see below
+* **iPhone, iPad** – with SideStore: see below
 
-### iPhone and iPad with AltStore or SideStore
+### iPhone and iPad with SideStore
 
-1. Install [AltStore](https://altstore.io) or [SideStore](https://sidestore.io) on your iPhone or iPad.
-2. Open **Sources › +** and add the Solea source:
+Solea installs on iPhone and iPad with [SideStore](https://sidestore.io), for free, with your own Apple Account. You need
+a computer once (about 10 minutes); after that, updates arrive on the iPhone. Step-by-step guide:
+**[solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)**.
 
-   ```
-   https://raw.githubusercontent.com/gabrielchamak/solea-releases/main/altstore.json
-   ```
+Already have SideStore? Add the Solea source (Sources › +):
 
-3. Install Solea from the source. New versions show up in AltStore's **Updates** tab.
-
-AltStore and SideStore sign the app with your own Apple ID: with a free Apple ID, the app must be refreshed every
-7 days (they do it automatically when your iPhone is on the same Wi-Fi as AltServer, or by themselves with SideStore).
+```
+https://raw.githubusercontent.com/gabrielchamak/solea-releases/main/sidestore.json
+```
 
 > [!WARNING]
 > (Windows) Like other unsigned apps, Solea may be flagged by Windows SmartScreen on first launch: choose
