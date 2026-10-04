@@ -1,0 +1,42 @@
+{
+  "name": "Solea",
+  "identifier": "tv.solea.source",
+  "subtitle": "A TV-first video player for the subscription you already have.",
+  "description": "Official Solea source for SideStore. Solea is a player: it provides no content and no subscription.",
+  "iconURL": "https://raw.githubusercontent.com/gabrielchamak/solea-releases/main/images/icon.png",
+  "website": "https://github.com/gabrielchamak/solea-releases",
+  "tintColor": "#FF8A3D",
+  "apps": [
+    {
+      "name": "Solea",
+      "bundleIdentifier": "tv.solea.player",
+      "developerName": "Gabriel Chamak",
+      "subtitle": "A TV-first video player.",
+      "localizedDescription": "Solea plays the live TV, movies and series of the subscription you already have, with a clean interface, dubbed or original versions, profiles, resume and casting to Chromecast. Solea provides, sells and recommends no content and no subscription.",
+      "iconURL": "https://raw.githubusercontent.com/gabrielchamak/solea-releases/main/images/icon.png",
+      "tintColor": "#FF8A3D",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.9.1",
+          "buildVersion": "21",
+          "date": "2026-10-04",
+          "localizedDescription": "## Test version\n\n- **Player controls easier to read** on bright pictures: darker shade behind the controls, play and ±10 s on dark circles (phones).\n- **Finding your devices**: detailed diagnostic notes in Settings › About › Error log, to understand why an iPhone doesn't find a Solea box or computer. Copy the log and send it on [Discord](https://discord.gg/42FVvupACy).\n- Fewer network errors in the log when the iPhone goes to the background.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.1-android.apk`\n- **Windows**: `Solea-0.9.1-Setup.exe` (installer) or `Solea-0.9.1-windows.zip` (portable)\n",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.1/Solea-0.9.1-ios.ipa",
+          "size": 40831791,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Solea n'utilise pas la caméra et ne la demande jamais. Cette mention est exigée par FFmpeg, intégré à Solea pour convertir le son des films envoyés au Chromecast.",
+          "NSMicrophoneUsageDescription": "Solea n'utilise pas le micro et ne le demande jamais. Cette mention est exigée par FFmpeg, intégré à Solea pour convertir le son des films envoyés au Chromecast.",
+          "NSLocalNetworkUsageDescription": "Solea cherche tes box Solea et tes Chromecast pour y envoyer des vidéos, et synchronise « Continuer à regarder » et tes favoris entre tes appareils."
+        }
+      }
+    }
+  ],
+  "news": []
+}
