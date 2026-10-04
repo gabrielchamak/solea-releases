@@ -1,0 +1,73 @@
+name: Bug report
+description: Something doesn't work as it should in Solea.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem!
+
+        > [!CAUTION]
+        > **Never paste your subscription address, username, password or playlist address** here, not even in a
+        > screenshot or a log: this page is public.
+
+        Please check first that the problem hasn't been [reported already](https://github.com/gabrielchamak/solea-releases/issues).
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Device type
+      options:
+        - Fire TV
+        - Android TV / Android box
+        - Android phone or tablet
+        - iPhone or iPad
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      description: For example "Fire TV Stick 4K", "Xiaomi Mi Box S", "iPhone 15", "Windows 11".
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Solea version
+      description: Shown in Settings › About.
+      placeholder: "0.9.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: How Solea is connected
+      options:
+        - Xtream Codes account
+        - M3U playlist
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Movies
+        2. Open a movie page
+        3. Press Play
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log (optional)
+      description: Settings › About › Error log › Copy. It never contains your credentials, but check before pasting.
+      render: text

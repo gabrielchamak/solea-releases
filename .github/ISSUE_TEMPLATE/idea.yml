@@ -1,0 +1,31 @@
+name: Feature idea
+description: Suggest something new or better for Solea.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please check first that it isn't [already suggested](https://github.com/gabrielchamak/solea-releases/issues)
+        or in the [planned features](https://github.com/gabrielchamak/solea-releases#planned-features).
+
+        Solea is a player: requests for channels, content or subscriptions can't be accepted.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What you would like Solea to do.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help
+      description: The situation where you miss it.
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Devices concerned
+      options:
+        - label: TV (Fire TV, Android TV, box)
+        - label: Phones and tablets
+        - label: Windows

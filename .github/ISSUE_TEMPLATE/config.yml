@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help
+    url: https://discord.gg/42FVvupACy
+    about: Installing, setting up, how to… ask on the Solea Discord.
+  - name: Install guide for iPhone and iPad
+    url: https://solea.tv/en/install-iphone/
+    about: Step by step with SideStore.
