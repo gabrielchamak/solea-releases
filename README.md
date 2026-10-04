@@ -118,14 +118,16 @@ You can also open an [issue](https://github.com/gabrielchamak/solea-releases/iss
 
 ## Planned Features
 
-### Coming in the next version
+### New in 0.9.0
 
 | Feature | Tested on a device |
 |---|---|
 | Sign in a TV from your phone through solea.tv – scan the QR code, type on your phone; end-to-end encrypted, no need to be on the same Wi-Fi | ✅ Fire TV · 🧪 with a real phone scanning the code |
 | M3U playlists, with their XMLTV program guide | ✅ Fire TV, playlist of channels · 🧪 playlist with movies |
 | No empty pages: Movies, Series and Anime hidden when your subscription has none | ✅ Fire TV |
-| Settings › About: contact, legal notice, privacy, terms of use, open source licenses | ✅ Fire TV |
+| Picture in Picture on iPhone and iPad (leave the app or tap the button), Picture in Picture button on Android phones | 🧪 iPhone, Android phones |
+| Player gestures explained the first time on phones and tablets | ✅ |
+| Settings › About: contact, privacy, terms of use, open source licenses | ✅ Fire TV |
 | "Continue without an account" remembered; "Continue watching" only shows titles of the current subscription | ✅ Fire TV |
 
 ### Built, not tested yet
@@ -136,7 +138,6 @@ You can also open an [issue](https://github.com/gabrielchamak/solea-releases/iss
 | PIN codes and parental control per profile | all devices |
 | Casting to a Chromecast from an Android phone (Dolby / DTS converted) | Android phones |
 | Casting to DLNA TVs (Samsung, LG…) | Windows |
-| Picture-in-picture (leave the app during a video) | Android phones |
 | Touch gestures in the player (pinch, double tap, long press, swipe) | Android phones, iPhone |
 | Floating mini player | Windows, iPad |
 | "Now Playing" on the iPhone lock screen | iPhone |
