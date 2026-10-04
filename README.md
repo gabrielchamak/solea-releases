@@ -6,7 +6,9 @@
   <br>
 </h1>
 
-<h4 align="center">A TV-first video player for the subscription you already have, built with <a href="https://flutter.dev/" target="_blank">Flutter</a> and <a href="https://claude.com/claude-code" target="_blank">Claude</a>.</h4>
+<h4 align="center">A free IPTV player for Android TV, Fire TV, Android, iPhone and Windows: Xtream Codes and M3U playlists, with a TV interface built for the remote. Built with <a href="https://flutter.dev/" target="_blank">Flutter</a> and <a href="https://claude.com/claude-code" target="_blank">Claude</a>.</h4>
+
+<p align="center"><b><a href="https://solea.tv/en/">solea.tv</a></b></p>
 
 <p align="center">
   <a href="#download">Download</a> •
@@ -38,7 +40,8 @@ This repository hosts the **releases** of Solea (downloads and release notes). T
 
 Get the latest version on the [releases page](https://github.com/gabrielchamak/solea-releases/releases/latest):
 
-* **Android TV, Fire TV, Android phones and tablets** – `Solea-<version>-android.apk`
+* **Android TV, Fire TV Stick, Android boxes, phones and tablets** – `Solea-<version>-android.apk`
+  (on a Fire TV: install the *Downloader* app, then type `solea.tv/apk`)
 * **Windows** – `Solea-<version>-Setup.exe` (installer) or `Solea-<version>-windows.zip` (portable)
 * **iPhone, iPad** – with SideStore: see below
 
@@ -61,6 +64,8 @@ https://raw.githubusercontent.com/gabrielchamak/solea-releases/main/sidestore.js
 ## Key Features
 
 * Live TV, movies, series and replay from your own subscription, with the program guide
+* Xtream Codes accounts and M3U / M3U8 playlists, with their XMLTV program guide (EPG)
+* Sign in a TV from your phone: scan the QR code, type on the phone (end-to-end encrypted)
 * Several versions of a title shown as one (quality, language) – the best one your device can play is picked for you
 * Forgiving search – typos, accents, missing spaces
 * Rich movie and series pages – backdrops, cast with photos, trailers, similar titles (TMDB)
