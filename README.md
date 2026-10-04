@@ -136,7 +136,8 @@ You can also open an [issue](https://github.com/gabrielchamak/solea-releases/iss
 | PIN codes and parental control per profile | all devices |
 | Casting to a Chromecast from an Android phone (Dolby / DTS converted) | Android phones |
 | Casting to DLNA TVs (Samsung, LG…) | Windows |
-| Picture-in-picture, touch gestures in the player | Android phones, iPhone |
+| Picture-in-picture (leave the app during a video) | Android phones |
+| Touch gestures in the player (pinch, double tap, long press, swipe) | Android phones, iPhone |
 | Floating mini player | Windows, iPad |
 | "Now Playing" on the iPhone lock screen | iPhone |
 
