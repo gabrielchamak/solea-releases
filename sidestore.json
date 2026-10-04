@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.9.2",
+          "buildVersion": "22",
+          "date": "2026-10-04",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.2/Solea-0.9.2-ios.ipa",
+          "size": 40920643,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.1",
           "buildVersion": "21",
           "date": "2026-10-04",
