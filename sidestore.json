@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.9.3",
+          "buildVersion": "23",
+          "date": "2026-10-05",
+          "localizedDescription": "## Test version\n\n### Lighter Android app\n- **New audio decoder** for the sound a box or phone can't play by itself (DTS, TrueHD, Dolby Digital…).\n- **The Android app is more than twice as small**: about 38 MB instead of 90 MB.\n\n### Remote control\n- **The PIN code pad can be used in full with the remote**: ▼ from the first row no longer gets lost.\n- **Settings**: ▲ ▼ stay in the page instead of jumping to a category on the left, and the data sources in About can be read to the bottom.\n\n### Error log\n- **Settings › About › Detailed log**: adds diagnostic notes (device discovery…) to the error log, useful when reporting a problem. Off by default, on this device only.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.3-android.apk`\n- **Windows**: `Solea-0.9.3-Setup.exe` (installer) or `Solea-0.9.3-windows.zip` (portable)\n- **iPhone, iPad**: with SideStore, see [solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)\n\nQuestions and feedback: [Discord](https://discord.gg/42FVvupACy). Solea is a player: it provides no content and no subscription.\n",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.3/Solea-0.9.3-ios.ipa",
+          "size": 40921653,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.2",
           "buildVersion": "22",
           "date": "2026-10-04",
