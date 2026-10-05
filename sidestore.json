@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.9.4",
+          "buildVersion": "24",
+          "date": "2026-10-05",
+          "localizedDescription": "## Test version\n\n### Solea on your Chromecast\n- **Solea's own Chromecast screen**: Solea colours, a loading screen with the film's picture, a pause screen with the title, synopsis and time left, and clear messages when a video can't be played.\n- **Next episode**: a card with a countdown appears on the TV during the end credits, and the episode starts by itself, keeping the voices and subtitles you chose.\n- **Skip intro / recap** from the Solea remote, or automatically if set so in Settings › Playback.\n- **Live channels**: channel logo, current and next programme on screen for a few seconds, and Dolby sound converted so it plays.\n- **Subtitles from the file itself** when it has them in your language, always in sync; subtitles found online are only used otherwise. They follow your Settings › Subtitles style (size, colour, background).\n- **4K TVs and amplifiers**: Dolby sound is sent as is when the TV or amplifier can play it; a 1080p version is picked only when the sound has to be converted.\n- **Smoother playback** on modest TVs.\n\n### Casting\n- **Pick the TV again to get back in control**: if Solea was closed while casting, choosing the same Chromecast or Solea box brings back the remote for what's playing.\n- **AirPlay from iPhone and iPad** to an Apple TV or an AirPlay TV.\n- **\"Cast to…\" shows the kind of device** (Solea box, TV, Chromecast, Google TV) and casting messages are shorter.\n- **Only TVs show up as receivers** (box, Fire TV, Android TV, Samsung TV), no longer Android phones.\n- **DLNA TVs** (Samsung, LG) get subtitles too.\n- **\"Keep Solea open\"** is shown only when the video goes through this device.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.4-android.apk`\n- **Windows**: `Solea-0.9.4-Setup.exe` (installer) or `Solea-0.9.4-windows.zip` (portable)\n- **iPhone, iPad**: with SideStore, see [solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)\n\nQuestions and feedback: [Discord](https://discord.gg/42FVvupACy). Solea is a player: it provides no content and no subscription.\n",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.4/Solea-0.9.4-ios.ipa",
+          "size": 40985211,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.3",
           "buildVersion": "23",
           "date": "2026-10-05",
