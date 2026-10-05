@@ -25,16 +25,16 @@ fi
 cd "ffmpeg-$FFMPEG_VERSION"
 
 # Only what the relays need: read MKV / MP4 / TS over HTTP, decode audio, encode AAC, write fragmented MP4
-# (served over HTTP with -listen) or HLS with MP4 segments.
+# (served over HTTP with -listen) or HLS with MP4 segments, and the file's text subtitles as WebVTT.
 COMPONENTS=(
   --disable-everything
   --enable-protocol=file,http,tcp,pipe
   --enable-demuxer=matroska,mov,mpegts,aac,ac3,eac3,dts,truehd,mp3,flac,ogg,wav
-  --enable-decoder=ac3,eac3,dca,truehd,mlp,aac,aac_latm,mp3,mp2,opus,flac,vorbis,pcm_s16le,pcm_s24le,pcm_s16be,pcm_bluray,pcm_dvd
-  --enable-encoder=aac
+  --enable-decoder=ac3,eac3,dca,truehd,mlp,aac,aac_latm,mp3,mp2,opus,flac,vorbis,pcm_s16le,pcm_s24le,pcm_s16be,pcm_bluray,pcm_dvd,subrip,ass,ssa,webvtt,text,mov_text
+  --enable-encoder=aac,webvtt
   --enable-parser=aac,aac_latm,ac3,dca,mlp,mpegaudio,opus,flac,vorbis,h264,hevc,av1,vp9,mpeg4video,mpegvideo
   --enable-bsf=aac_adtstoasc,h264_mp4toannexb,hevc_mp4toannexb,extract_extradata,vp9_superframe,av1_frame_split
-  --enable-muxer=mp4,mov,ipod,hls,mpegts,adts
+  --enable-muxer=mp4,mov,ipod,hls,mpegts,adts,webvtt
   --enable-filter=aformat,aresample,volume,alimiter,anull,atrim,asetpts,pan,channelmap,format,null
 )
 
