@@ -20,11 +20,11 @@
       "versions": [
         {
           "version": "0.9.5",
-          "buildVersion": "26",
+          "buildVersion": "27",
           "date": "2026-10-06",
           "localizedDescription": "## Test version\n\n### Connect a TV from your phone\n- **Scan the TV's QR code with your phone's camera: Solea opens** and offers to connect the TV in one tap, to your Solea account and your subscription. The TV gets your profiles, progress and favorites. Everything is encrypted for the TV alone.\n- On iPhone, the solea.tv/pair page shows an \"Open in Solea\" button.\n- Without Solea on the phone, the solea.tv/pair page works as before.\n\n### Updates from the app (Android)\n- **Updating from the app now works**: the download used to stop with an error just before installing.\n- If you're on a test version, the next test version is offered without turning on \"Beta versions\".\n- The remote clearly shows which button is selected, and permission to install apps is asked before downloading.\n- **One-time step**: versions up to 0.9.4 still have the issue. Install this version by hand once (Downloader or the APK below); after that, updates install from the app.\n\n### Casting\n- **Original voices and subtitles (VOST) are kept** when casting to a Solea box or TV, as in the player.\n- A short network drop no longer switches a Chromecast to Google's player: Solea's screen is tried again.\n- **Settings › About › Detailed log** is much more complete (network, player, casting, conversions), to understand a problem.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.5-android.apk`\n- **Windows**: `Solea-0.9.5-Setup.exe` (installer) or `Solea-0.9.5-windows.zip` (portable)\n- **iPhone, iPad**: with SideStore, see [solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)\n\nQuestions and feedback: [Discord](https://discord.gg/42FVvupACy). Solea is a player: it provides no content and no subscription.\n",
           "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.5/Solea-0.9.5-ios.ipa",
-          "size": 41083158,
+          "size": 41084102,
           "minOSVersion": "15.0"
         },
         {
