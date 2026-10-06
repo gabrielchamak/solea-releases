@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.9.6",
+          "buildVersion": "28",
+          "date": "2026-10-06",
+          "localizedDescription": "## Test version\n\n### A new TV interface\n- **New home screen**: a large picture of the title you select, \"Continue watching\" right below, and four doors: Live TV, Movies, Series, Anime.\n- **Search, Settings and your profile** are now round buttons at the top of the home screen. The remote's search or mic key opens search directly.\n- **New search**: channels, series and movies in rows, with your recent searches.\n- **Movies, Series and Anime in rows**: New, My Trakt list, Favorites, Top rated, then every category, with \"See all\".\n- **Long-press OK anywhere** for options: favorite, Trakt list, move, guide, replay, remove from \"Continue watching\".\n- **Settings reorganized** into seven clear categories, each with a short summary.\n\n### Live TV\n- **Program guide in a grid**: channels by hour, a small live preview of the selected channel, and replay in one press.\n- **Picture format per channel** (whole picture, fill, 16:9, 4:3), remembered for each channel.\n- **Smoother motion on Android TV boxes**: the screen switches to 50 Hz for 25/50 fps channels (Settings › Playback).\n- **Frozen picture**: Solea reconnects, tries another format, then a lower quality, and explains when nothing works.\n- **Favorite channels in your own order**: long-press OK on a channel, then Move.\n- Each channel shows the current program, its end time and progress.\n\n### Subscription\n- **Backup servers**: add up to 5 other addresses from your provider. If the main one stops responding, Solea switches on its own.\n\n### Trakt\n- **Connect your Trakt account** (Settings › Services) with a code on trakt.tv: what you watch is marked as watched, your progress in each series is sent, and your watchlist shows up in Movies and Series. A \"Watchlist\" button is on each movie and series page.\n\n### And also\n- **Voice search** listens inside Solea and types as you speak (Android TV boxes with a mic remote).\n- **\"Continue watching\" on the Android TV home screen**.\n- Short announcements can appear at the top of the home screen.\n- Casting from an Android box to another TV now works with the remote.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.6-android.apk`\n- **Windows**: `Solea-0.9.6-Setup.exe` (installer) or `Solea-0.9.6-windows.zip` (portable)\n- **iPhone, iPad**: with SideStore, see [solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)\n\nQuestions and feedback: [Discord](https://discord.gg/42FVvupACy). Solea is a player: it provides no content and no subscription.\n",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.6/Solea-0.9.6-ios.ipa",
+          "size": 41211342,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.5",
           "buildVersion": "27",
           "date": "2026-10-06",
