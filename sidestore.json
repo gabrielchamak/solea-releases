@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.9.7",
+          "buildVersion": "31",
+          "date": "2026-10-10",
+          "localizedDescription": "## Test version\n\n### Several subscriptions\n- **My subscriptions** (Settings › Subscription): keep several Xtream accounts or M3U playlists and switch between them without typing your details again. Each one keeps its own catalog, and they follow you to your other devices with your Solea account.\n- Changing your provider details no longer deletes the previous catalog: the old subscription stays in the list. \"Remove\" deletes it and its catalog from the device.\n- **Options for each subscription**: a name, the User-Agent (only if your provider asks for one), and a backup program guide (XMLTV) used for channels your provider's guide leaves empty.\n- Editing a subscription now keeps its backup servers.\n\n### Sports\n- **A new Sports door on the TV home screen**: matches and live events for the next two days, taken from your sports channels' guide, grouped by event with the channels showing them. One press to watch.\n\n### Anime\n- **Skip intro, recap and credits on more anime episodes**, with a new source used when the usual ones have nothing.\n\n### Backup\n- **Backup to a file** (Settings › Solea account): save your subscriptions, profiles, progress, favorites and settings, and restore them on any device. The file contains your passwords: keep it private.\n\n### Trakt\n- **Easier sign-in on phones and tablets**: a button opens the Trakt page with the code already filled in.\n- **Your Trakt lists in Movies and Series** on phones and computers too, and your personal lists alongside the watchlist.\n\n### And also\n- The TV home screen fits five doors, with shorter subtitles.\n\n## Downloads\n\n- **Android box, Android TV, Fire TV, Android phones and tablets**: `Solea-0.9.7-android.apk`\n- **Windows**: `Solea-0.9.7-Setup.exe` (installer) or `Solea-0.9.7-windows.zip` (portable)\n- **iPhone, iPad**: with SideStore, see [solea.tv/en/install-iphone](https://solea.tv/en/install-iphone/)\n",
+          "downloadURL": "https://github.com/gabrielchamak/solea-releases/releases/download/v0.9.7/Solea-0.9.7-ios.ipa",
+          "size": 41475760,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.6",
           "buildVersion": "30",
           "date": "2026-10-09",
